@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Business</title>
+  <!-- CSS and JavaScript -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <script src="js/index.js"></script> -->
+  <!-- fontawesome css -->
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <script src="bootstrap/js/bootstrap.bundle.js" async></script>
+</head>
+
+<body>
+  <header class="sticky-top">
+    <!-- Navingtion bar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MyNavbarToggler"
+          aria-controls="MyNavbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="logo">
+          <a href="#"><img class="navbar-brand" src="images/logo.png" alt="Logo">The Business</a>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" id="MyNavbarToggler">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Carousel with controls -->
+
+  <main>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="/images/slider-1.jpg" class="d-block w-100" alt="Including Customer">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Including Customer</h5>
+            <p>We include customers into the development team for time needed.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/images/slider-2.jpg" class="d-block w-100" alt="Training">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Trainings</h5>
+            <p>Our employes get the training of Day-to-Day operations as needed.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/slider-3.jpg" class="d-block w-100" alt="Srong Environment">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Srong Environment</h5>
+            <p>We have very friendly, cooperative and secure environment.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/slider-4.jpg" class="d-block w-100" alt="Internship Programs">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Internship Programs</h5>
+            <p>Time-to-Time we offer internships that helps in bulding strong career base.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+
+  <!-- Information Cards -->
+
+  <div class="container-fluid information">
+    <div class="row">
+      <div class="card col-md" style="width: 18rem; margin: 5%;">
+        <img src="images/card-1.jpg" class="card-img-top" alt="Our Services">
+        <div class="card-body">
+          <h5 class="card-title">Services</h5>
+          <p class="card-text">We provide services 24/7. Our work is very clean and competitive and we like to work in
+            friendly environment with customers.</p>
+          <a href="#" class="btn btn-primary">Want our services?</a>
+        </div>
+      </div>
+      <div class="card col-md" style="width: 18rem; margin: 5%;">
+        <img src="images/card-2.jpg" class="card-img-top" alt="Work">
+        <div class="card-body">
+          <h5 class="card-title">Our Work</h5>
+          <p class="card-text">Full-Stack Webdevelopment, Desktop Application, Mobile apps, Animation Designs and Data
+            Science.</p>
+          <a href="#" class="btn btn-primary">What our clients said?</a>
+        </div>
+      </div>
+      <div class="card col-md" style="width: 18rem; margin: 5%;">
+        <img src="images/card-3.jpg" class="card-img-top" alt="Contact Us">
+        <div class="card-body">
+          <h5 class="card-title">Contact Us</h5>
+          <p class="card-text">Contact us anytime, we are ready to work 24/7. Leave a message.</p>
+          <a href="#" class="btn btn-primary">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Previous Work -->
+
+  <div class="container-fluid work" id="services">
+    <button type="button" class="btn btn-outline-secondary">Our Previous Work</button>
+  </div>
+
+  <section>
+    <div class="container-fluid previousWorks">
+      <div class="grid">
+        <div class="row text-white align-items-center">
+          <div class="col-md-6">
+            <h3>Data Animation</h3>
+            <p>A perfect data animation according to the requirments of the customers.</p>
+          </div>
+          <div class="col-md-6">
+            <video controls class="img-fluid rounded-top" width="70%">
+              <source src="videos/video-1.mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="grid">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <video controls class="img-fluid rounded-top" width="70%">
+              <source src="videos/video-2.mp4">
+            </video>
+          </div>
+          <div class="col-md-6">
+            <h3>Coding Animation</h3>
+            <p>A perfect example of the coder according to, the First rule of the coding if a program works don't touch
+              it. In this animation a knight is kissing its leptop after successful code execution.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid previousWorks2">
+      <div class="grid">
+        <div class="row text-white align-items-center">
+          <div class="col-md-6">
+            <h3>Bullet Ring Animation</h3>
+            <p>A perfect bullet ring reflection shot animation acording to the customers requirements.</p>
+          </div>
+          <div class="col-md-6">
+            <video controls class="img-fluid rounded-top" width="70%">
+              <source src="videos/video-3.mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Team Image Gallery -->
+  <div class="container-fluid" id="about">
+    <div class="jumbotron work">
+      <button type="button" class="btn btn-outline-secondary">Our Amazing Team</button>
+    </div>
+    <div class="row team">
+      <div class="col-md-4 mt-5 col-lg-4 hoverOver">
+        <img  src="images/ceo.JPG" class="img-fluid image" alt="CEO">
+        <div class="middle">
+          <div class="text">CEO</div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5 col-lg-4 hoverOver">
+        <img  src="images/webDeveloper.JPG" class="img-fluid image" alt="Senior WebDeveloper">
+        <div class="middle">
+          <div class="text">Senior WebDeveloper</div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5 col-lg-4 hoverOver">
+        <img  src="images/marketer.JPG" class="img-fluid image" alt="Marketer">
+        <div class="middle">
+          <div class="text">Marketer</div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5 col-lg-6 hoverOver">
+        <img  src="images/squad.JPG" class="img-fluid image" alt="Entire Team">
+        <div class="middle">
+          <div class="text">Entire Team</div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5 col-lg-6 hoverOver">
+        <img src="images/squad2.JPG" class="img-fluid image" alt="Entire Team">
+        <div class="middle">
+          <div class="text">Entire Team</div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5 col-lg-3 hoverOver">
+        <img src="images/softwareEngineer.JPG" class="img-fluid image" alt="Senior Software Engineer">
+        <div class="middle">
+          <div class="text">Senior Software Engineer</div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5 col-lg-3 hoverOver">
+        <img src="images/dbm.JPG" class="img-fluid image" alt="Database Manager">
+        <div class="middle">
+          <div class="text">Database Manager</div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5 col-lg-3 hoverOver">
+        <img src="images/jrSoftwareEngineer.JPG" class="img-fluid image" alt="Jr. SoftwareEngineer">
+        <div class="middle">
+          <div class="text">Jr. SoftwareEngineer</div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5 col-lg-3 hoverOver">
+        <img src="images/jrWebDeveloper.JPG" class="img-fluid image" alt="Jr. WebDeveloper">
+        <div class="middle">
+          <div class="text">Jr. WebDeveloper</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="container-fluid" id="contact">
+    <div class="contactArea">
+      <button type="button" class="btn btn-outline-secondary">Contact Us</button>
+    </div>
+  </div>
+  <div class="container">
+    <p class="text-center w-responsive mx-auto mb-5 pb-5">Do you have any questions? Please do not hesitate to contact
+      us
+      directly. Our team will come back to you within
+      a matter of hours to help you.</p>
+  </div>
+  <div class="container form">
+    <div class="mb-4 contactForm">
+      <div class="row">
+        <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="" method="POST">
+            <div class="row pt-2">
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <label for="name" class="">Full Name:*</label>
+                  <input type="text" id="name" name="name" class="form-control" placeholder="Fahad Ali" required>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <label for="email" class="">Email:*</label>
+                  <input type="text" id="email" name="email" class="form-control" placeholder="fahadali0839@gmail.com"
+                    required>
+                </div>
+              </div>
+            </div>
+            <div class="row pt-2">
+              <div class="col-md-12">
+                <div class="md-form mb-0">
+                  <label for="subject" class="">Subject:*</label>
+                  <input type="text" id="subject" name="subject" class="form-control"
+                    placeholder="Need Website Developer" required>
+                </div>
+              </div>
+            </div>
+            <div class="row pt-2">
+              <div class="col-md-12">
+                <div class="md-form">
+                  <label for="message">Message:*</label>
+                  <textarea type="text" id="message" name="message" rows="6" class="form-control md-textarea"
+                    placeholder="Comment..." required></textarea>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="text-right text-md-left submitBtn">
+            <a class="btn btn-secondary" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
+        </div>
+        <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+            <li><i class="fas fa-map-marker-alt fa-2x"></i>
+              <p>Chak No 90G.B Aliabad, P/O box Same, Tehsil and District Faisalabad, Pakistan</p>
+            </li>
+            <li><i class="fas fa-phone mt-4 fa-2x"></i>
+              <p>+92 3032602607</p>
+            </li>
+            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+              <p>fahadali0839@gmail.com</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="container-fluid footer rounded-top">
+    <p class="w-responsive">
+      Copyright &copy; The Bussiness - All rights reserved.
+    </p>
+  </div>
+
+</body>
+</html>
